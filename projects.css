@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {/*everythung text*/
+  font-family: 'Arial', sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  line-height: 1.2;
+}
+
+
+
+
+
+
+.header {/*the balck part*/
+  background-color: #161b22;
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+
+
+.logo-container {/*invisible rectangle*/
+  display: flex;
+  align-items: center;
+}
+
+.logo-container .logo-image {/*image*/
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+.nav-container {/*top part*/
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-item a {/*the part part*/
+  color: #c9d1d9;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-item a:hover {/*the color of click*/
+  color: #1f6feb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projects-container {/*big square part*/
+  text-align: start;
+  border: 5px solid #6e6e6e; 
+  border-radius: 14px;
+  background-color: #161b22;
+  max-width: 1200px;
+}
+  
+
+.projects-container h2 {/*my projects*/
+  font-size: 24px;
+  margin-block-start: 20px;
+  margin: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.projects-container h3 {/*featuredprojects*/
+  font-size: 19px;
+  transform: none;
+  white-space: nowrap; 
+  margin: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+.projects-list {/* square part*/
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+.projects-item {/*the projects 1by1*/
+  text-align: center;
+  padding: 20px;
+  width: 220px; 
+  color: #c9d1d9;
+}
+
+.projects-item img {/*image itself*/
+  width: 160px;
+  height: 300px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.projects-item h3 {/*project name*/
+  font-size: 18px;
+}
+
+.projects-item img:active {
+  transform: scale(2);
+}
+
+
