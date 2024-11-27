@@ -159,5 +159,22 @@ body {
   transform: translateY(5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   background-color: #3a3a3a;
-  border: solid 4px;
+  border: solid 4px; }
+  
+@media (min-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
 
+@media (max-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    font-size: 18px;
+  }
+}
